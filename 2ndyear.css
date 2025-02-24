@@ -1,0 +1,110 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: sans-serif;
+}
+
+.container {
+    max-width: 1200px;
+    margin: 0 auto;
+    padding: 1rem;
+}
+
+header {
+    padding: 1rem;
+}
+
+h6{
+    font-size: 20px;
+}
+
+button {
+    padding: 0.7rem 1.9rem;
+    border-radius: 10px;
+    outline: none;
+    border: none;
+    color: white;
+    transition: 0.5s ease-in-out;
+}
+
+button:hover {
+    background-color: greenyellow;
+}
+
+.btn1 {
+    background-color: red;
+}
+
+.btn2 {
+    background-color: green;
+}
+
+.btn3 {
+    background-color: yellow;
+}
+
+.btn4 {
+    background-color: orange;
+}
+.btn5 {
+    background-color: pink;
+}
+.btn6{
+    background-color: purple;
+}
+.btn7{
+    background-color: black;
+}
+.btn8{
+    background-color: gray;
+}
+.btn9{
+    background-color: orange;
+}
+.btn10{
+    background-color: blue;
+}
+
+
+
+
+
+
+
+input {
+    width: 100%;
+    padding: 0.9rem;
+    border: 1px solid green;
+    border-radius: 5px;
+    margin: 10px 0;
+}
+
+textarea {
+    width: 100%;
+    padding: 1rem;
+    border: 1px solid green;
+    border-radius: 5px;
+    height: 100px;
+}
+
+.flex {
+    width: 100%;
+    height: 400px;
+    display: flex;
+    gap: 10px;
+    justify-content: center;
+    align-items: center;
+}
+
+.box {
+    width: 200px;
+    height: 300px;
+    background-color: green;
+}
+
+img {
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+}
